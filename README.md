@@ -14,12 +14,12 @@ This PowerShell script automates the cleanup of temporary files, browser cache, 
 
 1. **Dry Run Mode**: Test the script without actually deleting any files.
     ```powershell
-    .\system_cleanup.ps1 -DryRun
+    .\cleanup.ps1 -DryRun
     ```
 
 2. **Actual Cleanup**: Perform the cleanup operations.
     ```powershell
-    .\system_cleanup.ps1
+    .\cleanup.ps1
     ```
 
 3. **Log File**: The script generates a log file at `C:\Users\<YourUsername>\Documents\system_cleanup_log.txt` detailing the operations performed and space freed.
